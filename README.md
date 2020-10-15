@@ -1,6 +1,10 @@
 # PyStackDeploy
 Simple library providing `docker stack deploy` functionality in Python through `docker.DockerClient` in Docker's official Python SDK.
 
+## TODO
+- Should be able to parse `docker-compose.yml` into `docker` models
+- Should deploy the generated models using the `deploy()` function
+
 ## Usage
 > Still under development but usage should look like this
 ```python
